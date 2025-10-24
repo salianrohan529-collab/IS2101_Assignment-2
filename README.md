@@ -1,7 +1,8 @@
 # 🖥️ Interrupt Controller Simulation (Java)
 
 ## 📘 Overview
-A simple Java simulation of an **Interrupt Controller** handling multiple I/O devices (Keyboard, Mouse, Printer) with **priority** and **masking**.
+This project simulates an **Interrupt Controller** that handles multiple I/O device interrupts based on **priority** and **masking**.  
+The simulation is implemented in Java using multithreading-like asynchronous simulation through random event triggering.
 
 | Device   | Priority | Description |
 |-----------|-----------|-------------|
@@ -11,12 +12,31 @@ A simple Java simulation of an **Interrupt Controller** handling multiple I/O de
 
 ---
 
-## 🚀 How to Run
-### Online Compiler
-1. Copy `InterruptControllerSimulation.java` code into [JDoodle](https://www.jdoodle.com/) or [Replit](https://replit.com/).
-2. Click **Run** to see the simulation.
+## ⚙️ Features
+✅ Simulates **Keyboard**, **Mouse**, and **Printer** interrupts  
+✅ Handles **priority-based ISR execution**  
+✅ Supports **masking/unmasking** of devices  
+✅ Maintains **execution log** with timestamps  
+✅ Displays **real-time interrupt messages**  
+✅ Simple, clean, and educational code for OS concepts  
 
-### Local Machine
+---
+
+## 🧠 Concepts Covered
+- Interrupt Mechanism  
+- Interrupt Service Routine (ISR)  
+- Prioritization and Masking  
+- Event Simulation and Logging  
+
+---
+
+## 🚀 How to Run
+
+### 🧩 Online Compiler
+1. Copy the `InterruptControllerSimulation.java` code into [JDoodle](https://www.jdoodle.com/) or [Replit](https://replit.com/).
+2. Click **Run** to see the simulation output.
+
+### 💻 Local Machine
 ```bash
 javac InterruptControllerSimulation.java
 java InterruptControllerSimulation
